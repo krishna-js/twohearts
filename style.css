@@ -890,3 +890,318 @@ p{
     margin-top: 20px;
     font-weight: 900;
 }
+#rsvp{
+    width: 100%;
+    height: 100%;
+    background: url(./images/seaside1.jpg)no-repeat;
+    /* backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px); */
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 0;
+    
+}
+.container7{
+    width: 50%;
+    height: 100%;
+    opacity:  0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.outer7{
+    width: 100%;
+    height: 30%;
+    /* background-color: #f0d9e8; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.title7{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #b9559a;
+    border: 1px dashed #bd559a;
+   padding: 5px 9px;
+}
+.outer7 h2{
+    color: #bd559a;
+    font-size: 60px;
+    font-family: 'second';
+    margin-top: 10px; 
+}
+.contact-form{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: cadetblue; */
+}
+.form-group{
+    width: 60%;
+    height: auto;
+}
+.form-control{
+    width: 100%;
+    height: auto;
+    text-align: left;
+    outline: none;
+    border: none;
+    padding: 9px 10px;
+    background: transparent;
+    border-bottom: 2px solid #b9559a;
+}
+.form-control::placeholder{
+    color: BLACK;
+    font-size: 15px;
+    font-weight: 600;
+}
+.submit{
+    width: 30%;
+    height: 20%;
+    border: 2px solid #b9559a;
+    font-size: 15px;
+    background-image: linear-gradient(to right,#b95799 ,#dcdcdc);
+   
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+.form-control submit{
+    width: 20%;
+    height: 20%;
+    cursor: pointer;
+    color: #fff;
+    transition: all .3s ease-in-out;
+
+}
+.submit:hover{
+    background-color: #b95799;
+   box-shadow: 0 0 10px rgba(255, 100, 154,.5), inset 0 -10px 20px rgba(255, 100, 154,.5) ;
+}
+.form-group textarea{
+    width: 100%;
+    height: auto;
+    padding: 7px 10px;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: #b95799 solid;
+}
+textarea::placeholder{
+    color: black;
+    font-size: 15px;
+    font-weight: 600;
+}
+.form-control label{
+    font-size: 15px;
+    color: black;
+    font-weight: 600;
+}
+#gallery{
+    width: 100%;
+    height: 140%;
+    /* background-color: beige;  */
+    z-index: 1;
+} 
+.container8{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding-top: 20%;
+}
+.outer8{
+    width: 100%;
+    height: 30%;
+    /* background-color: #f0d9e8; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 8%;
+
+}
+.text-gallery{
+    display: inline;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: #b9559a;
+    border: 1px dashed #bd559a;
+   padding: 5px 9px;
+}
+.outer8 h2{
+    color: #bd559a;
+    font-size: 60px;
+    font-family: 'second';
+    margin-top: 20px;  
+}
+.gallery-container{
+    width: 100%;
+    height: 150%;
+    /* background-color: #333; */
+    padding: 20px 0;
+}
+.gallery-content{
+    height: 150%;
+    width: 100%;
+}
+.photo-wrapper{
+   width: 100%;
+   height: 50%;
+   display: flex;
+   justify-content: space-between;
+
+}
+.photo-box{
+    width: 100%;
+    height: 100%;
+    background-color: #bd559a;
+    /* background-image: url(./images/bird-logo.png)no-repeat;
+    background-size: cover; */
+}
+.pic1-img{
+    width: 100%;
+    height: 100%;
+    /* border: 5px solid #bd559a; */
+    transition: all 0.3s ease-out;
+}  
+
+.pic1-img:hover{
+    opacity: .50;
+    /* transform: scale(1.1); */   
+}
+footer{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 60px;
+    background-color: #b9559a;
+}
+footer .container{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+footer .container .footer-col h4{
+    position: relative;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+footer .container .footer-col h4::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    /* width: 100px;
+    height: 2px;
+    background: #fff; */
+}
+footer .container .footer-col p{
+    color: #fff; 
+    text-align: left;
+}
+.social-links{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 50px);
+    grid-gap: 10px;
+}
+.social-links li{
+    list-style: none;
+}
+.social-links li a{
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    background-color: #b9559a;
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+.social-links li a:hover{
+    background: #c48eb3;
+    transition: 0.3s;
+}
+.social-links li a .fab{
+    color: #fff;
+    font-size: 20px;
+}
+.links{
+    position: relative;
+}
+.links li{
+    list-style: none;
+}
+.links li a{
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.links li a:hover{
+    color: #55053c;
+}
+.info{
+    position: relative;   
+}
+.info li{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 16px;
+}
+.info li span:nth-child(1)
+{
+    color: #fff;
+    font-size: 20px;
+}
+.info li span{
+    color: #fff;
+}
+.info a{
+    color: #fff;
+    text-decoration: none;
+}
+.info li a:hover{
+    color: #55053c;
+}
+.copyright{
+    width: 100%;
+    background-color: #b9559a;
+    padding: 8px 100px;
+}
+.copyright p{
+    text-align: center;
+    color: #fff;
+    letter-spacing: 1px;
+}
+@media (max-width:991px)
+{
+    footer{
+        padding: 40px; 
+    }
+    footer .container{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .copyright{
+        padding: 8px 100px;
+    }
+}
+@media (max-width:768px)
+{
+    footer .container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
